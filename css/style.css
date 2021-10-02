@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.intro-image{
+    /* Background attachmenti jätan ära kuna muudab lehekülje hüppeliseks */
+    background-image: url("../img/co-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    background-color:#65483b5d;
+    border: 2px solid #65483b00;
+    color: #f6aa3a;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text{
+    background-color: #634b4c;
+    color: #dbccbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image{
+    /* Background attachmenti jätan ära kuna muudab lehekülje hüppeliseks */
+    background-image: url("../img/co-3.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quality-image__link a {
+    background-color:#23493e44;
+    border: 4px solid #23493e6e;
+    color:#432330d7;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.quality-text {
+    background-color: #132635;
+    color: #aa5b37d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.quality-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image{
+    /* Background attachmenti jätan ära kuna muudab lehekülje hüppeliseks */
+    background-image: url("../img/co-2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a {
+    background-color:#48415175;
+    border: 6px solid #48415100;
+    color: #E3A059;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.origin-text{
+    
+    background-color: #1D3247;
+    color: #9A8779;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+
+
+.footer {
+    height: 150px;
+    background-color:#363e41;
+    color:#8D8E90;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color:#8D8E90;
+    text-decoration: none;
+
+}
+
+.footer ul li:hover {
+    /* Jätan transform functioni */
+    transform: scale(1.2);
+}
